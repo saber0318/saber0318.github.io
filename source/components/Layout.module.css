@@ -1,0 +1,65 @@
+.root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main{
+  flex: 1;
+}
+
+.headerLogo {
+  cursor: pointer;
+  color: #000;
+  opacity: 0.8;
+}
+
+.headerLogo:hover {
+  color: #000;
+  opacity: 1;
+}
+
+.headerLink {
+  cursor: pointer;
+  color: #000;
+  opacity: 0.8;
+  margin: 0 1rem;
+}
+
+.headerLink:hover {
+  color: #000;
+  opacity: 1;
+  font-weight: bold;
+}
+
+.headerLinkActive {
+  opacity: 1;
+  font-weight: bold;
+}
+
+.container {
+  padding: 0;
+}
+
+.footText{
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.footLink {
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.footLink:hover {
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+.footLinkActive {
+  opacity: 1;
+  font-weight: bold;
+}
